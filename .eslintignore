@@ -1,0 +1,16 @@
+.storybook
+.husky
+lib
+node_modules
+.eslintrc
+.prettierrc
+package.json
+README.md
+tsconfig.*
+yarn.lock
+
+docs
+
+scripts/scss
+
+scripts/styles

@@ -1,0 +1,1178 @@
+[
+  {
+    "name": ".properties",
+    "class": "properties",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "1C:Enterprise",
+    "class": "1c",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "ARM Assembly",
+    "class": "armasm",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "AVR Assembly",
+    "class": "avrasm",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "ActionScript",
+    "class": "actionscript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Ada",
+    "class": "ada",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "AngelScript",
+    "class": "angelscript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Apache Access Log",
+    "class": "accesslog",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Apache config",
+    "class": "apache",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "AppleScript",
+    "class": "applescript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "ArcGIS Arcade",
+    "class": "arcade",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Arduino",
+    "class": "arduino",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Arduino",
+    "class": "arduino",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "AsciiDoc",
+    "class": "asciidoc",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "AspectJ",
+    "class": "aspectj",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Augmented Backus-Naur Form",
+    "class": "abnf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "AutoHotkey",
+    "class": "autohotkey",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "AutoIt",
+    "class": "autoit",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Awk",
+    "class": "awk",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "BASIC",
+    "class": "basic",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Backus-Naur Form",
+    "class": "bnf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Bash",
+    "class": "bash",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Batch file (DOS)",
+    "class": "dos",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Brainfuck",
+    "class": "brainfuck",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "C",
+    "class": "c",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "C#",
+    "class": "csharp",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "C++",
+    "class": "cpp",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "C/AL",
+    "class": "cal",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "CMake",
+    "class": "cmake",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "CSP",
+    "class": "csp",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "CSS",
+    "class": "css",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Cache Object Script",
+    "class": "cos",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Cap\\'n Proto",
+    "class": "capnproto",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Ceylon",
+    "class": "ceylon",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Clean",
+    "class": "clean",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Clojure",
+    "class": "clojure",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Clojure REPL",
+    "class": "clojure-repl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "CoffeeScript",
+    "class": "coffeescript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Coq",
+    "class": "coq",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Crystal",
+    "class": "crystal",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "D",
+    "class": "d",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "DNS Zone",
+    "class": "dns",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Dart",
+    "class": "dart",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Delphi",
+    "class": "delphi",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Device Tree",
+    "class": "dts",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Diff",
+    "class": "diff",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Django",
+    "class": "django",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Dockerfile",
+    "class": "dockerfile",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Dust",
+    "class": "dust",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "ERB (Embedded Ruby)",
+    "class": "erb",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Elixir",
+    "class": "elixir",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Elm",
+    "class": "elm",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Erlang",
+    "class": "erlang",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Erlang REPL",
+    "class": "erlang-repl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Excel formulae",
+    "class": "excel",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Extended Backus-Naur Form",
+    "class": "ebnf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "F#",
+    "class": "fsharp",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "FIX",
+    "class": "fix",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Flix",
+    "class": "flix",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Fortran",
+    "class": "fortran",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "G-code (ISO 6983)",
+    "class": "gcode",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "GAMS",
+    "class": "gams",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "GAUSS",
+    "class": "gauss",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "GLSL",
+    "class": "glsl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "GML",
+    "class": "gml",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Gherkin",
+    "class": "gherkin",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Go",
+    "class": "go",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Golo",
+    "class": "golo",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Gradle",
+    "class": "gradle",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "GraphQL",
+    "class": "graphql",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Groovy",
+    "class": "groovy",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "HAML",
+    "class": "haml",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "HSP",
+    "class": "hsp",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "HTML",
+    "class": "xml",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "HTTP",
+    "class": "http",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Handlebars",
+    "class": "handlebars",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Haskell",
+    "class": "haskell",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Haxe",
+    "class": "haxe",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Hy",
+    "class": "hy",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "INI",
+    "class": "ini",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "IRPF90",
+    "class": "irpf90",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "ISBL",
+    "class": "isbl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Inform 7",
+    "class": "inform7",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Intel x86 Assembly",
+    "class": "x86asm",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "JBoss CLI",
+    "class": "jboss-cli",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "JSON",
+    "class": "json",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Java",
+    "class": "java",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "JavaScript",
+    "class": "javascript",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Julia",
+    "class": "julia",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Julia REPL",
+    "class": "julia-repl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Kotlin",
+    "class": "kotlin",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "LDIF",
+    "class": "ldif",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "LLVM IR",
+    "class": "llvm",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "LSL (Linden Scripting Language)",
+    "class": "lsl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "LaTeX",
+    "class": "latex",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Lasso",
+    "class": "lasso",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Leaf",
+    "class": "leaf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Less",
+    "class": "less",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Lisp",
+    "class": "lisp",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "LiveCode",
+    "class": "livecodeserver",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "LiveScript",
+    "class": "livescript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Lua",
+    "class": "lua",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "MEL",
+    "class": "mel",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "MIPS Assembly",
+    "class": "mipsasm",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Makefile",
+    "class": "makefile",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Markdown",
+    "class": "markdown",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Matlab",
+    "class": "matlab",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Maxima",
+    "class": "maxima",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Mercury",
+    "class": "mercury",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Microtik RouterOS script",
+    "class": "routeros",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Mizar",
+    "class": "mizar",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Mojolicious",
+    "class": "mojolicious",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Monkey",
+    "class": "monkey",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "MoonScript",
+    "class": "moonscript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "N1QL",
+    "class": "n1ql",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "NSIS",
+    "class": "nsis",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "NestedText",
+    "class": "nestedtext",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Nginx config",
+    "class": "nginx",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Nim",
+    "class": "nim",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Nix",
+    "class": "nix",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Node REPL",
+    "class": "node-repl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "OCaml",
+    "class": "ocaml",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Objective-C",
+    "class": "objectivec",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "OpenSCAD",
+    "class": "openscad",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Oracle Rules Language",
+    "class": "ruleslanguage",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Oxygene",
+    "class": "oxygene",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "PHP",
+    "class": "php",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "PHP Template",
+    "class": "php-template",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "PL/pgSQL",
+    "class": "pgsql",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Packet Filter config",
+    "class": "pf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Parser3",
+    "class": "parser3",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Perl",
+    "class": "perl",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Plain text",
+    "class": "plaintext",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Pony",
+    "class": "pony",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "PostgreSQL",
+    "class": "pgsql",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "PowerShell",
+    "class": "powershell",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Processing",
+    "class": "processing",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Prolog",
+    "class": "prolog",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Protocol Buffers",
+    "class": "protobuf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Puppet",
+    "class": "puppet",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "PureBASIC",
+    "class": "purebasic",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Python",
+    "class": "python",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Python REPL",
+    "class": "python-repl",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Python profiler",
+    "class": "profile",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Q",
+    "class": "q",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "QML",
+    "class": "qml",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "R",
+    "class": "r",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "ReasonML",
+    "class": "reasonml",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "RenderMan RIB",
+    "class": "rib",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "RenderMan RSL",
+    "class": "rsl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Roboconf",
+    "class": "roboconf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Ruby",
+    "class": "ruby",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Rust",
+    "class": "rust",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "SAS",
+    "class": "sas",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "SCSS",
+    "class": "scss",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "SML (Standard ML)",
+    "class": "sml",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "SQF",
+    "class": "sqf",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "SQL",
+    "class": "sql",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "STEP Part 21",
+    "class": "step21",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Scala",
+    "class": "scala",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Scheme",
+    "class": "scheme",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Scilab",
+    "class": "scilab",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Shell Session",
+    "class": "shell",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Smali",
+    "class": "smali",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Smalltalk",
+    "class": "smalltalk",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Stan",
+    "class": "stan",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Stata",
+    "class": "stata",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Stylus",
+    "class": "stylus",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "SubUnit",
+    "class": "subunit",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Swift",
+    "class": "swift",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "TOML",
+    "class": "ini",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "TP",
+    "class": "tp",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Tagger Script",
+    "class": "taggerscript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Tcl",
+    "class": "tcl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Test Anything Protocol",
+    "class": "tap",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Thrift",
+    "class": "thrift",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Twig",
+    "class": "twig",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "TypeScript",
+    "class": "typescript",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "VBScript",
+    "class": "vbscript",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "VBScript in HTML",
+    "class": "vbscript-html",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "VHDL",
+    "class": "vhdl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Vala",
+    "class": "vala",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Verilog",
+    "class": "verilog",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Vim Script",
+    "class": "vim",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Visual Basic .NET",
+    "class": "vbnet",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "WebAssembly",
+    "class": "wasm",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Wolfram Language",
+    "class": "mathematica",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "Wren",
+    "class": "wren",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "X++",
+    "class": "axapta",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "XL",
+    "class": "xl",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "XML",
+    "class": "xml",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "XQuery",
+    "class": "xquery",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "YAML",
+    "class": "yaml",
+    "code": "",
+    "common": true
+  },
+  {
+    "name": "Zephir",
+    "class": "zephir",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "crmsh",
+    "class": "crmsh",
+    "code": "",
+    "common": false
+  },
+  {
+    "name": "dsconfig",
+    "class": "dsconfig",
+    "code": "",
+    "common": false
+  }
+]

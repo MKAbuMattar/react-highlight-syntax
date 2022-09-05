@@ -1,0 +1,6 @@
+lib
+node_modules
+scripts/scss
+
+scripts/supportedLanguages.md
+scripts/supportedTheme.md
