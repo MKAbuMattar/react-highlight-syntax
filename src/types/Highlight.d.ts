@@ -35,7 +35,7 @@ type Language =
   | 'CSP'
   | 'CSS'
   | 'Cache Object Script'
-  | 'Cap\'n Proto'
+  | "Cap'n Proto"
   | 'Ceylon'
   | 'Clean'
   | 'Clojure'
@@ -200,7 +200,7 @@ type Language =
   | 'crmsh'
   | 'dsconfig';
 
-type Theme = 
+type Theme =
   | 'A11yDark'
   | 'A11yLight'
   | 'Agate'

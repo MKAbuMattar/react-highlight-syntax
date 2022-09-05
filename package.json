@@ -35,7 +35,6 @@
     "script:copy": "node -r esbuild-runner/register scripts/copyFolder.ts",
     "script:data": "node -r esbuild-runner/register scripts/build.data.ts",
     "script:style": "node -r esbuild-runner/register scripts/build.style.ts",
-    "script": "yarn script:data",
     "build:cjs": "tsc --p tsconfig.build.json",
     "build": "rm -rf lib && yarn build:cjs && yarn script:copy",
     "prepare": "husky install"
