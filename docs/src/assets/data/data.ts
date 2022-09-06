@@ -23,7 +23,9 @@ const App = () => (
     {code}
   </ReactHighlightSyntax>
   );
-);`;
+);
+
+export default App;`;
 
 const isolate = `import React, { FC } from 'react';
 

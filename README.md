@@ -39,6 +39,8 @@ const App = () => (
   </ReactHighlightSyntax>
   );
 );
+
+export default App;
 ```
 
 ## Isolate on to own component
