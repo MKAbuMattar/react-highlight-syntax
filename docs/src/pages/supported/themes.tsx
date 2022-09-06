@@ -20,25 +20,25 @@ const Themes: NextPage = () => {
         </section>
       </header>
 
-      <section>
-        <table>
-          <thead>
-            <tr>
-              <th>Theme</th>
-              <th>Alias</th>
-            </tr>
-          </thead>
-          <tbody>
-            {SupportedTheme.map(({ name }, index) => {
-              return (
-                <tr key={index}>
-                  <td>{name}</td>
-                  <td>{name}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+      <section className={'table___container'}>
+        <div className={'table'}>
+          <div className={'row header red'}>
+            <div className={'cell'}>Language</div>
+            <div className={'cell'}>Alias</div>
+          </div>
+          {SupportedTheme.map(({ name }, index) => {
+            return (
+              <div key={index} className={'row'}>
+                <div className={'cell'} data-title="Language">
+                  {name}
+                </div>
+                <div className={'cell'} data-title="Alias">
+                  {name}
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </section>
     </>
   );
