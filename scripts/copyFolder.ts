@@ -55,5 +55,5 @@ const copyFolderRecursiveSync = (source, target) => {
   const lib = join(projectRoot, 'lib');
 
   // copyFolderRecursiveSync(srcStyles, lib);
-  copyFolderRecursiveSync(srcTypes, lib);
+  // copyFolderRecursiveSync(srcTypes, lib);
 })();
