@@ -23,13 +23,13 @@ const Themes: NextPage = () => {
       <section className={'table___container'}>
         <div className={'table'}>
           <div className={'row header red'}>
-            <div className={'cell'}>Language</div>
+            <div className={'cell'}>Theme</div>
             <div className={'cell'}>Alias</div>
           </div>
           {SupportedTheme.map(({ name }, index) => {
             return (
               <div key={index} className={'row'}>
-                <div className={'cell'} data-title="Language">
+                <div className={'cell'} data-title="Theme">
                   {name}
                 </div>
                 <div className={'cell'} data-title="Alias">
