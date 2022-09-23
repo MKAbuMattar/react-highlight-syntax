@@ -1,16 +1,15 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import highlight from 'highlight.js';
 
 const useHighlight = (children: string) => {
-  useEffect(() => {
-    const el = document.querySelectorAll(
-      '[data-type="CODE"]',
-    ) as NodeListOf<HTMLElement>;
+  const refHighlight = useRef(null);
 
-    el.forEach((item) => {
-      highlight.highlightElement(item);
-    });
+  useEffect(() => {
+    const ref = refHighlight.current as unknown as HTMLElement;
+    highlight.highlightElement(ref);
   }, [children]);
+
+  return { refHighlight };
 };
 
 export default useHighlight;

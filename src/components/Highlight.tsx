@@ -19,7 +19,7 @@ const Highlight: FC<HighlightProps> = (props) => {
     ...otherProps
   } = props;
 
-  useHighlight(children);
+  const { refHighlight } = useHighlight(children);
 
   return (
     <>
@@ -27,7 +27,11 @@ const Highlight: FC<HighlightProps> = (props) => {
       <Tag className={getStyleClass(theme)} {...otherProps}>
         {copy && <Copy code={children} copyBtnTheme={copyBtnTheme} />}
         <pre>
-          <code className={getLanguageClass(language)} data-type={'CODE'}>
+          <code
+            className={getLanguageClass(language)}
+            ref={refHighlight}
+            data-type={'react-highlight-syntax'}
+          >
             {children}
           </code>
         </pre>
