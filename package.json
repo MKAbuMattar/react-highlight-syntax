@@ -1,6 +1,6 @@
 {
   "name": "react-highlight-syntax",
-  "version": "0.0.0-beta.0.0.3",
+  "version": "0.0.0-beta.0.0.4",
   "description": "React Highlight Syntax is a React component that highlights syntax in a code block.",
   "keywords": [
     "typescript",
@@ -32,8 +32,6 @@
     "prettier:check": "prettier --check ./ --no-error-on-unmatched-pattern",
     "check": "yarn lint:check && yarn prettier:check",
     "fix": "yarn lint:fix && yarn prettier:fix",
-    "storybook": "start-storybook -p 6006",
-    "build:storybook": "build-storybook",
     "script:copy": "node -r esbuild-runner/register scripts/copyFolder.ts",
     "script:data": "node -r esbuild-runner/register scripts/build.data.ts",
     "script:style": "node -r esbuild-runner/register scripts/build.style.ts",
@@ -51,19 +49,14 @@
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
-    "@storybook/addon-essentials": "6.5.10",
-    "@storybook/addon-info": "5.3.21",
-    "@storybook/addon-links": "6.5.10",
-    "@storybook/addons": "6.5.10",
-    "@storybook/react": "6.5.10",
-    "@types/node": "18.7.15",
-    "@types/react": "18.0.18",
+    "@types/node": "18.7.18",
+    "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "5.36.2",
-    "@typescript-eslint/parser": "5.36.2",
-    "esbuild": "0.15.7",
+    "@typescript-eslint/eslint-plugin": "5.38.0",
+    "@typescript-eslint/parser": "5.38.0",
+    "esbuild": "0.15.9",
     "esbuild-runner": "2.2.1",
-    "eslint": "8.23.0",
+    "eslint": "8.23.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-simple-import-sort": "8.0.0",
@@ -75,7 +68,7 @@
     "react-is": "18.2.0",
     "recursive-directory": "0.0.0-rc-0.0.4",
     "tslib": "2.4.0",
-    "typescript": "4.8.2"
+    "typescript": "4.8.3"
   },
   "sideEffects": true,
   "exports": {
