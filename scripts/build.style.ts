@@ -43,7 +43,13 @@ const addUnderscoreToStartWithNumber = (name: string) =>
   ${content}
 }`;
         const css = sass.compileString(style);
-        const minifiedCSS = new CleanCSS().minify(css.css.toString()).styles;
+        const minifiedCSS = new CleanCSS({
+          level: {
+            1: {
+              specialComments: 'comment',
+            },
+          },
+        }).minify(css.css.toString()).styles;
         fs.writeFileSync(file, minifiedCSS);
       }
 
@@ -59,7 +65,13 @@ const addUnderscoreToStartWithNumber = (name: string) =>
   ${content}
 }`;
         const css = sass.compileString(style);
-        const minifiedCSS = new CleanCSS().minify(css.css.toString()).styles;
+        const minifiedCSS = new CleanCSS({
+          level: {
+            1: {
+              specialComments: 'comment',
+            },
+          },
+        }).minify(css.css.toString()).styles;
         fs.writeFileSync(file, minifiedCSS);
       }
     }

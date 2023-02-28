@@ -1,6 +1,6 @@
 {
   "name": "react-highlight-syntax",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Highlight Syntax is a React component that highlights syntax in a code block.",
   "keywords": [
     "typescript",
