@@ -1,6 +1,6 @@
 lib
 node_modules
-scripts/scss
-
+scripts/styles
+scripts/build.config.json
 scripts/supportedLanguages.md
 scripts/supportedTheme.md

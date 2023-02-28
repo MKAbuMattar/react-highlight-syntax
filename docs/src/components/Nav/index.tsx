@@ -39,28 +39,28 @@ const Nav: FC<Props> = (props) => {
     >
       <SidebarHeader>
         <Link href="/">
-          <a>
+         
             <h1 className="nav__title">
               <div className="nav__banner">
                 <DeviconsReactOriginal size={'3rem'} />
               </div>
               React Highlight Syntax
             </h1>
-          </a>
+          
         </Link>
       </SidebarHeader>
       <SidebarContent>
         <Menu iconShape="circle">
           <MenuItem icon={<DeviconsReactOriginal size={'24'} />}>
             <Link href="/">
-              <a>Home</a>
+             Home
             </Link>
           </MenuItem>
         </Menu>
         <Menu iconShape="circle">
           <MenuItem icon={<PackageIcon />}>
             <Link href="/installation">
-              <a>Installation</a>
+              Installation
             </Link>
           </MenuItem>
         </Menu>
@@ -68,7 +68,7 @@ const Nav: FC<Props> = (props) => {
         <Menu iconShape="circle">
           <MenuItem icon={<CodeIcon />}>
             <Link href="/live-demo">
-              <a>Live Demo</a>
+              Live Demo
             </Link>
           </MenuItem>
         </Menu>
@@ -76,12 +76,12 @@ const Nav: FC<Props> = (props) => {
           <SubMenu icon={<APIIcon />} title={'Supported'}>
             <MenuItem>
               <Link href="/supported/languages">
-                <a>Supported Languages</a>
+              Supported Languages
               </Link>
             </MenuItem>
             <MenuItem>
               <Link href="/supported/themes">
-                <a>Supported Themes</a>
+                Supported Themes
               </Link>
             </MenuItem>
           </SubMenu>

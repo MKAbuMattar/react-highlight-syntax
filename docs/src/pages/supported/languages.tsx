@@ -6,6 +6,17 @@ import DeviconsReactOriginal from 'devicons-react/lib/icons/DeviconsReactOrigina
 import supportedLanguages from '@/data/supportedLanguages.json';
 
 const Languages: NextPage = () => {
+
+
+  const removeSpace = (val: string) => val.replace(/\s/g, '');
+
+const capitalize = (val: string) =>
+  val
+    .replace(/[.:\-\/]/g, '')
+    .split(' ')
+    .map((el) => el.charAt(0).toUpperCase() + el.slice(1))
+    .join(' ');
+
   return (
     <>
       <Head>
@@ -33,7 +44,7 @@ const Languages: NextPage = () => {
                   {name}
                 </div>
                 <div className={'cell'} data-title="Alias">
-                  {name}
+                  {removeSpace(capitalize(name))}
                 </div>
               </div>
             );

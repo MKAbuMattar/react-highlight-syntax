@@ -32,6 +32,15 @@ const Home: NextPage = () => {
     setCopyBtnTheme(e.target.value);
   };
 
+  const removeSpace = (val: string) => val.replace(/\s/g, '');
+
+const capitalize = (val: string) =>
+  val
+    .replace(/[.:\-\/]/g, '')
+    .split(' ')
+    .map((el) => el.charAt(0).toUpperCase() + el.slice(1))
+    .join(' ');
+
   const getCode = (languageName: string) => {
     const language = supportedLanguages.find(
       (language) => language.name === languageName,
@@ -115,7 +124,7 @@ const Home: NextPage = () => {
                     <div className={'card__info'}>
                       <h4 className={'card__title'}>Live Demo</h4>
                       <p className={'card__description'}>
-                        Language : {language}
+                        Language : {removeSpace(capitalize(language))}
                       </p>
 
                       <p className={'card__description'}>Theme : {theme}</p>
@@ -160,7 +169,7 @@ const code = \`${getCode(language)}\`;
 const App = () => (
   return (
   <ReactHighlightSyntax 
-    language={'${language}'}
+    language={'${removeSpace(capitalize(language))}'}
     theme={'${theme}'}
     ${
       copy

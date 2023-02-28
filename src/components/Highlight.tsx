@@ -11,7 +11,7 @@ import { getStyleClass, getTheme } from '../utils/getStyleClass';
 const Highlight: FC<HighlightProps> = (props) => {
   const {
     tag: Tag = 'div',
-    language = 'Plain text',
+    language = 'PlainText',
     theme = 'Default',
     copy = false,
     copyBtnTheme = 'Light',
