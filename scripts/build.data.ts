@@ -6,6 +6,15 @@ import data from './data/data.build.json';
 
 const isNumeric = (val: string) => /^-?\d+$/.test(val);
 
+const removeSpace = (val: string) => val.replace(/\s/g, '');
+
+const capitalize = (val: string) =>
+  val
+    .replace(/[.:\-\/]/g, '')
+    .split(' ')
+    .map((el) => el.charAt(0).toUpperCase() + el.slice(1))
+    .join(' ');
+
 const read = (file: string) => {
   return fs.readFileSync(file).toString();
 };
@@ -28,12 +37,12 @@ const read = (file: string) => {
   let supportedTheme = '';
 
   data.forEach((item) => {
-    language += `\n  | '${item.name}'`;
+    language += `\n  | '${removeSpace(capitalize(item.name))}'`;
 
-    getClass += `\n  case '${item.name}':
+    getClass += `\n  case '${removeSpace(capitalize(item.name))}':
 return '${item.class}';`;
 
-    supportedLanguages += `- ${item.name}\r\n`;
+    supportedLanguages += `- ${removeSpace(capitalize(item.name))}\r\n`;
   });
 
   files.forEach((item) => {
@@ -85,10 +94,7 @@ return 'base16 ${classname}';`;
     }
   });
 
-  const outPathtsHighlight = path.join(
-    __dirname,
-    '../src/types/Highlight.d.ts',
-  );
+  const outPathtsHighlight = path.join(__dirname, '../src/types/Highlight.ts');
   const outPathtsgetLanguageClass = path.join(
     __dirname,
     '../src/utils/getLanguageClass.ts',
@@ -123,7 +129,7 @@ type HighlightProps = {
 
 export { Language, Theme };
 
-export default HighlightProps;`;
+export default HighlightProps;\r\n`;
 
   const getLanguageClass = `import { Language } from '../types/Highlight';
 const getClass = (language: Language) => {
@@ -166,7 +172,7 @@ const getStyleClass = (theme: Theme) => {
   return getStyleTheme(theme);
 };
 
-export { getStyleClass, getTheme };`;
+export { getStyleClass, getTheme };\r\n`;
 
   fs.writeFileSync(outPathtsHighlight, highlight);
 

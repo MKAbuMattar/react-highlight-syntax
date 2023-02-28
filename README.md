@@ -97,67 +97,66 @@ export default React.memo(SyntaxHighlighter);
 
 <details>
 
-- .properties
-- 1C:Enterprise
-- ARM Assembly
-- AVR Assembly
+- Properties
+- 1CEnterprise
+- ARMAssembly
+- AVRAssembly
 - ActionScript
 - Ada
 - AngelScript
-- Apache Access Log
-- Apache config
+- ApacheAccessLog
+- ApacheConfig
 - AppleScript
-- ArcGIS Arcade
-- Arduino
+- ArcGISArcade
 - Arduino
 - AsciiDoc
 - AspectJ
-- Augmented Backus-Naur Form
+- AugmentedBackusNaurForm
 - AutoHotkey
 - AutoIt
 - Awk
 - BASIC
-- Backus-Naur Form
+- BackusNaurForm
 - Bash
-- Batch file (DOS)
+- BatchFile(DOS)
 - Brainfuck
 - C
 - C#
 - C++
-- C/AL
+- CAL
 - CMake
 - CSP
 - CSS
-- Cache Object Script
-- Cap\'n Proto
+- CacheObjectScript
+- CapnProto
 - Ceylon
 - Clean
 - Clojure
-- Clojure REPL
+- ClojureREPL
 - CoffeeScript
 - Coq
 - Crystal
 - D
-- DNS Zone
+- DNSZone
 - Dart
 - Delphi
-- Device Tree
+- DeviceTree
 - Diff
 - Django
 - Dockerfile
 - Dust
-- ERB (Embedded Ruby)
+- ERB(EmbeddedRuby)
 - Elixir
 - Elm
 - Erlang
-- Erlang REPL
-- Excel formulae
-- Extended Backus-Naur Form
+- ErlangREPL
+- ExcelFormulae
+- ExtendedBackusNaurForm
 - F#
 - FIX
 - Flix
 - Fortran
-- G-code (ISO 6983)
+- Gcode(ISO6983)
 - GAMS
 - GAUSS
 - GLSL
@@ -179,18 +178,18 @@ export default React.memo(SyntaxHighlighter);
 - INI
 - IRPF90
 - ISBL
-- Inform 7
-- Intel x86 Assembly
-- JBoss CLI
+- Inform7
+- IntelX86Assembly
+- JBossCLI
 - JSON
 - Java
 - JavaScript
 - Julia
-- Julia REPL
+- JuliaREPL
 - Kotlin
 - LDIF
-- LLVM IR
-- LSL (Linden Scripting Language)
+- LLVMIR
+- LSL(LindenScriptingLanguage)
 - LaTeX
 - Lasso
 - Leaf
@@ -200,13 +199,13 @@ export default React.memo(SyntaxHighlighter);
 - LiveScript
 - Lua
 - MEL
-- MIPS Assembly
+- MIPSAssembly
 - Makefile
 - Markdown
 - Matlab
 - Maxima
 - Mercury
-- Microtik RouterOS script
+- MicrotikRouterOSScript
 - Mizar
 - Mojolicious
 - Monkey
@@ -214,52 +213,52 @@ export default React.memo(SyntaxHighlighter);
 - N1QL
 - NSIS
 - NestedText
-- Nginx config
+- NginxConfig
 - Nim
 - Nix
-- Node REPL
+- NodeREPL
 - OCaml
-- Objective-C
+- ObjectiveC
 - OpenSCAD
-- Oracle Rules Language
+- OracleRulesLanguage
 - Oxygene
 - PHP
-- PHP Template
-- PL/pgSQL
-- Packet Filter config
+- PHPTemplate
+- PLpgSQL
+- PacketFilterConfig
 - Parser3
 - Perl
-- Plain text
+- PlainText
 - Pony
 - PostgreSQL
 - PowerShell
 - Processing
 - Prolog
-- Protocol Buffers
+- ProtocolBuffers
 - Puppet
 - PureBASIC
 - Python
-- Python REPL
-- Python profiler
+- PythonREPL
+- PythonProfiler
 - Q
 - QML
 - R
 - ReasonML
-- RenderMan RIB
-- RenderMan RSL
+- RenderManRIB
+- RenderManRSL
 - Roboconf
 - Ruby
 - Rust
 - SAS
 - SCSS
-- SML (Standard ML)
+- SML(StandardML)
 - SQF
 - SQL
-- STEP Part 21
+- STEPPart21
 - Scala
 - Scheme
 - Scilab
-- Shell Session
+- ShellSession
 - Smali
 - Smalltalk
 - Stan
@@ -269,21 +268,21 @@ export default React.memo(SyntaxHighlighter);
 - Swift
 - TOML
 - TP
-- Tagger Script
+- TaggerScript
 - Tcl
-- Test Anything Protocol
+- TestAnythingProtocol
 - Thrift
 - Twig
 - TypeScript
 - VBScript
-- VBScript in HTML
+- VBScriptInHTML
 - VHDL
 - Vala
 - Verilog
-- Vim Script
-- Visual Basic .NET
+- VimScript
+- VisualBasicNET
 - WebAssembly
-- Wolfram Language
+- WolframLanguage
 - Wren
 - X++
 - XL
@@ -291,8 +290,9 @@ export default React.memo(SyntaxHighlighter);
 - XQuery
 - YAML
 - Zephir
-- crmsh
-- dsconfig
+- Crmsh
+- Dsconfig
+
 </details>
 
 ### Supported Themes
@@ -545,6 +545,7 @@ export default React.memo(SyntaxHighlighter);
 - Vs2015
 - Xcode
 - Xt256
+
 </details>
 
 ## License

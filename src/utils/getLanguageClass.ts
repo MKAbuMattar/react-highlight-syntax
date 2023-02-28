@@ -1,13 +1,13 @@
 import { Language } from '../types/Highlight';
 const getClass = (language: Language) => {
   switch (language) {
-    case '.properties':
+    case 'Properties':
       return 'properties';
-    case '1C:Enterprise':
+    case '1CEnterprise':
       return '1c';
-    case 'ARM Assembly':
+    case 'ARMAssembly':
       return 'armasm';
-    case 'AVR Assembly':
+    case 'AVRAssembly':
       return 'avrasm';
     case 'ActionScript':
       return 'actionscript';
@@ -15,23 +15,21 @@ const getClass = (language: Language) => {
       return 'ada';
     case 'AngelScript':
       return 'angelscript';
-    case 'Apache Access Log':
+    case 'ApacheAccessLog':
       return 'accesslog';
-    case 'Apache config':
+    case 'ApacheConfig':
       return 'apache';
     case 'AppleScript':
       return 'applescript';
-    case 'ArcGIS Arcade':
+    case 'ArcGISArcade':
       return 'arcade';
-    case 'Arduino':
-      return 'arduino';
     case 'Arduino':
       return 'arduino';
     case 'AsciiDoc':
       return 'asciidoc';
     case 'AspectJ':
       return 'aspectj';
-    case 'Augmented Backus-Naur Form':
+    case 'AugmentedBackusNaurForm':
       return 'abnf';
     case 'AutoHotkey':
       return 'autohotkey';
@@ -41,11 +39,11 @@ const getClass = (language: Language) => {
       return 'awk';
     case 'BASIC':
       return 'basic';
-    case 'Backus-Naur Form':
+    case 'BackusNaurForm':
       return 'bnf';
     case 'Bash':
       return 'bash';
-    case 'Batch file (DOS)':
+    case 'BatchFile(DOS)':
       return 'dos';
     case 'Brainfuck':
       return 'brainfuck';
@@ -55,7 +53,7 @@ const getClass = (language: Language) => {
       return 'csharp';
     case 'C++':
       return 'cpp';
-    case 'C/AL':
+    case 'CAL':
       return 'cal';
     case 'CMake':
       return 'cmake';
@@ -63,9 +61,9 @@ const getClass = (language: Language) => {
       return 'csp';
     case 'CSS':
       return 'css';
-    case 'Cache Object Script':
+    case 'CacheObjectScript':
       return 'cos';
-    case "Cap'n Proto":
+    case 'CapnProto':
       return 'capnproto';
     case 'Ceylon':
       return 'ceylon';
@@ -73,7 +71,7 @@ const getClass = (language: Language) => {
       return 'clean';
     case 'Clojure':
       return 'clojure';
-    case 'Clojure REPL':
+    case 'ClojureREPL':
       return 'clojure-repl';
     case 'CoffeeScript':
       return 'coffeescript';
@@ -83,13 +81,13 @@ const getClass = (language: Language) => {
       return 'crystal';
     case 'D':
       return 'd';
-    case 'DNS Zone':
+    case 'DNSZone':
       return 'dns';
     case 'Dart':
       return 'dart';
     case 'Delphi':
       return 'delphi';
-    case 'Device Tree':
+    case 'DeviceTree':
       return 'dts';
     case 'Diff':
       return 'diff';
@@ -99,7 +97,7 @@ const getClass = (language: Language) => {
       return 'dockerfile';
     case 'Dust':
       return 'dust';
-    case 'ERB (Embedded Ruby)':
+    case 'ERB(EmbeddedRuby)':
       return 'erb';
     case 'Elixir':
       return 'elixir';
@@ -107,11 +105,11 @@ const getClass = (language: Language) => {
       return 'elm';
     case 'Erlang':
       return 'erlang';
-    case 'Erlang REPL':
+    case 'ErlangREPL':
       return 'erlang-repl';
-    case 'Excel formulae':
+    case 'ExcelFormulae':
       return 'excel';
-    case 'Extended Backus-Naur Form':
+    case 'ExtendedBackusNaurForm':
       return 'ebnf';
     case 'F#':
       return 'fsharp';
@@ -121,7 +119,7 @@ const getClass = (language: Language) => {
       return 'flix';
     case 'Fortran':
       return 'fortran';
-    case 'G-code (ISO 6983)':
+    case 'Gcode(ISO6983)':
       return 'gcode';
     case 'GAMS':
       return 'gams';
@@ -165,11 +163,11 @@ const getClass = (language: Language) => {
       return 'irpf90';
     case 'ISBL':
       return 'isbl';
-    case 'Inform 7':
+    case 'Inform7':
       return 'inform7';
-    case 'Intel x86 Assembly':
+    case 'IntelX86Assembly':
       return 'x86asm';
-    case 'JBoss CLI':
+    case 'JBossCLI':
       return 'jboss-cli';
     case 'JSON':
       return 'json';
@@ -179,15 +177,15 @@ const getClass = (language: Language) => {
       return 'javascript';
     case 'Julia':
       return 'julia';
-    case 'Julia REPL':
+    case 'JuliaREPL':
       return 'julia-repl';
     case 'Kotlin':
       return 'kotlin';
     case 'LDIF':
       return 'ldif';
-    case 'LLVM IR':
+    case 'LLVMIR':
       return 'llvm';
-    case 'LSL (Linden Scripting Language)':
+    case 'LSL(LindenScriptingLanguage)':
       return 'lsl';
     case 'LaTeX':
       return 'latex';
@@ -207,7 +205,7 @@ const getClass = (language: Language) => {
       return 'lua';
     case 'MEL':
       return 'mel';
-    case 'MIPS Assembly':
+    case 'MIPSAssembly':
       return 'mipsasm';
     case 'Makefile':
       return 'makefile';
@@ -219,7 +217,7 @@ const getClass = (language: Language) => {
       return 'maxima';
     case 'Mercury':
       return 'mercury';
-    case 'Microtik RouterOS script':
+    case 'MicrotikRouterOSScript':
       return 'routeros';
     case 'Mizar':
       return 'mizar';
@@ -235,37 +233,37 @@ const getClass = (language: Language) => {
       return 'nsis';
     case 'NestedText':
       return 'nestedtext';
-    case 'Nginx config':
+    case 'NginxConfig':
       return 'nginx';
     case 'Nim':
       return 'nim';
     case 'Nix':
       return 'nix';
-    case 'Node REPL':
+    case 'NodeREPL':
       return 'node-repl';
     case 'OCaml':
       return 'ocaml';
-    case 'Objective-C':
+    case 'ObjectiveC':
       return 'objectivec';
     case 'OpenSCAD':
       return 'openscad';
-    case 'Oracle Rules Language':
+    case 'OracleRulesLanguage':
       return 'ruleslanguage';
     case 'Oxygene':
       return 'oxygene';
     case 'PHP':
       return 'php';
-    case 'PHP Template':
+    case 'PHPTemplate':
       return 'php-template';
-    case 'PL/pgSQL':
+    case 'PLpgSQL':
       return 'pgsql';
-    case 'Packet Filter config':
+    case 'PacketFilterConfig':
       return 'pf';
     case 'Parser3':
       return 'parser3';
     case 'Perl':
       return 'perl';
-    case 'Plain text':
+    case 'PlainText':
       return 'plaintext';
     case 'Pony':
       return 'pony';
@@ -277,7 +275,7 @@ const getClass = (language: Language) => {
       return 'processing';
     case 'Prolog':
       return 'prolog';
-    case 'Protocol Buffers':
+    case 'ProtocolBuffers':
       return 'protobuf';
     case 'Puppet':
       return 'puppet';
@@ -285,9 +283,9 @@ const getClass = (language: Language) => {
       return 'purebasic';
     case 'Python':
       return 'python';
-    case 'Python REPL':
+    case 'PythonREPL':
       return 'python-repl';
-    case 'Python profiler':
+    case 'PythonProfiler':
       return 'profile';
     case 'Q':
       return 'q';
@@ -297,9 +295,9 @@ const getClass = (language: Language) => {
       return 'r';
     case 'ReasonML':
       return 'reasonml';
-    case 'RenderMan RIB':
+    case 'RenderManRIB':
       return 'rib';
-    case 'RenderMan RSL':
+    case 'RenderManRSL':
       return 'rsl';
     case 'Roboconf':
       return 'roboconf';
@@ -311,13 +309,13 @@ const getClass = (language: Language) => {
       return 'sas';
     case 'SCSS':
       return 'scss';
-    case 'SML (Standard ML)':
+    case 'SML(StandardML)':
       return 'sml';
     case 'SQF':
       return 'sqf';
     case 'SQL':
       return 'sql';
-    case 'STEP Part 21':
+    case 'STEPPart21':
       return 'step21';
     case 'Scala':
       return 'scala';
@@ -325,7 +323,7 @@ const getClass = (language: Language) => {
       return 'scheme';
     case 'Scilab':
       return 'scilab';
-    case 'Shell Session':
+    case 'ShellSession':
       return 'shell';
     case 'Smali':
       return 'smali';
@@ -345,11 +343,11 @@ const getClass = (language: Language) => {
       return 'ini';
     case 'TP':
       return 'tp';
-    case 'Tagger Script':
+    case 'TaggerScript':
       return 'taggerscript';
     case 'Tcl':
       return 'tcl';
-    case 'Test Anything Protocol':
+    case 'TestAnythingProtocol':
       return 'tap';
     case 'Thrift':
       return 'thrift';
@@ -359,7 +357,7 @@ const getClass = (language: Language) => {
       return 'typescript';
     case 'VBScript':
       return 'vbscript';
-    case 'VBScript in HTML':
+    case 'VBScriptInHTML':
       return 'vbscript-html';
     case 'VHDL':
       return 'vhdl';
@@ -367,13 +365,13 @@ const getClass = (language: Language) => {
       return 'vala';
     case 'Verilog':
       return 'verilog';
-    case 'Vim Script':
+    case 'VimScript':
       return 'vim';
-    case 'Visual Basic .NET':
+    case 'VisualBasicNET':
       return 'vbnet';
     case 'WebAssembly':
       return 'wasm';
-    case 'Wolfram Language':
+    case 'WolframLanguage':
       return 'mathematica';
     case 'Wren':
       return 'wren';
@@ -389,9 +387,9 @@ const getClass = (language: Language) => {
       return 'yaml';
     case 'Zephir':
       return 'zephir';
-    case 'crmsh':
+    case 'Crmsh':
       return 'crmsh';
-    case 'dsconfig':
+    case 'Dsconfig':
       return 'dsconfig';
     default:
       return 'plaintext';

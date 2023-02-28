@@ -1,84 +1,67 @@
 import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
+import sass from 'sass';
+import CleanCSS from 'clean-css';
 import fs from 'fs';
 import path from 'path';
 
-const read = (file: string) => {
-  return fs.readFileSync(file).toString();
-};
+const read = (file: string) => fs.readFileSync(file).toString();
+
+const addUnderscoreToStartWithNumber = (name: string) =>
+  /^\d/.test(name) ? `_${name}` : name;
 
 (async () => {
   const files: RecursiveDirectory = (await recursiveDirectory(
-    './node_modules/highlight.js/styles',
+    './node_modules/highlight.js/scss',
     true,
   )) as RecursiveDirectory;
 
-  let style = '';
-  let filename = '';
-
   files.forEach((item) => {
-    filename = item.filename.replace(/.css/g, '');
-
     if (
-      filename !== 'pojoaque' &&
-      filename !== 'brown-paper' &&
-      filename !== 'brown-papersq.png' &&
-      filename !== 'pojoaque.jpg'
+      item.filename !== 'pojoaque.scss' &&
+      item.filename !== 'brown-paper.scss' &&
+      item.filename !== 'brown-papersq.png' &&
+      item.filename !== 'pojoaque.jpg'
     ) {
-      if (item.dirname === 'styles') {
-        const filepath = './node_modules/highlight.js/styles/' + item.filename;
-
-        style = `.${filename}{position: relative;${read(filepath)}}`;
-
-        fs.writeFileSync(
-          path.resolve(__dirname, `scss/${filename}.scss`),
-          style,
+      const content = read(item.fullpath);
+      const scss = path.join(__dirname, 'styles');
+      const base16 = path.join(__dirname, 'styles/base16');
+      if (!fs.existsSync(scss)) {
+        fs.mkdirSync(scss);
+      }
+      if (!fs.existsSync(base16)) {
+        fs.mkdirSync(base16);
+      }
+      if (item.dirname === 'scss') {
+        const file = path.join(
+          __dirname,
+          `./styles/${item.filename.replace(/.scss/g, '.css')}`,
         );
+        const style = `.${addUnderscoreToStartWithNumber(
+          item.filename.replace(/.scss/g, ''),
+        )} {
+          position:relative;
+  ${content}
+}`;
+        const css = sass.compileString(style);
+        const minifiedCSS = new CleanCSS().minify(css.css.toString()).styles;
+        fs.writeFileSync(file, minifiedCSS);
       }
 
       if (item.dirname === 'base16') {
-        const filepath =
-          './node_modules/highlight.js/styles/base16/' + item.filename;
-
-        style = `.base16.${filename}{position: relative;${read(filepath)}}`;
-
-        fs.writeFileSync(
-          path.resolve(__dirname, `scss/base16/${filename}.scss`),
-          style,
+        const file = path.join(
+          __dirname,
+          `./styles/base16/${item.filename.replace(/.scss/g, '.css')}`,
         );
+        const style = `.base16.${addUnderscoreToStartWithNumber(
+          item.filename.replace(/.scss/g, ''),
+        )} {
+          position:relative;
+  ${content}
+}`;
+        const css = sass.compileString(style);
+        const minifiedCSS = new CleanCSS().minify(css.css.toString()).styles;
+        fs.writeFileSync(file, minifiedCSS);
       }
     }
-    //   if (isNumeric(item.filename.charAt(0))) {
-    //     filename = `_${item.filename.replace(/.scss/g, '')}`;
-    //   } else {
-    //     filename = item.filename.replace(/.scss/g, '');
-    //   }
-
-    //   if (filename !== 'pojoaque' && filename !== 'brown-paper') {
-    //     if (item.dirname === 'scss') {
-    //       style += `.${filename} {
-    //   position: relative;
-    //   @import '~highlight.js/scss/${item.filename}';
-    // }\r\n\r\n`;
-    //     }
-
-    //     if (item.dirname === 'base16') {
-    //       style += `.base16.${filename} {
-    //   position: relative;
-    //   @import '~highlight.js/scss/base16/${item.filename}';
-    // }\r\n\r\n`;
-    //     }
-    //   }
   });
-
-  // fs.writeFileSync(
-  //   path.resolve(__dirname, 'build.config.json'),
-  //   JSON.stringify(temperatures),
-  // );
-
-  // const outPathtsHighlight = path.join(
-  //   __dirname,
-  //   '../src/styles/_highlight.scss',
-  // );
-
-  // fs.writeFileSync(outPathtsHighlight, style);
 })();
