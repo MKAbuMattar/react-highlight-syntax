@@ -1,6 +1,5 @@
 import { FC, useEffect, useState } from 'react';
 
-import { ID_INJECTCSS } from '../constants/InjectCSS';
 import appendStyle from '../utils/appendStyle';
 import isDOMReady from '../utils/isDOMReady';
 
@@ -10,14 +9,14 @@ type InjectCSSProps = {
   css: string;
 };
 
-const InjectCSS: FC<InjectCSSProps> = (props) => {
-  const { css } = props;
+const InjectCSS: FC<InjectCSSProps> = ({ css }: InjectCSSProps) => {
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
     if (!idCache[css]) {
-      const uniqueId = Object.keys(idCache).length;
-      idCache[css] = ID_INJECTCSS + uniqueId;
+      idCache[css] =
+        '__react_highlight_syntax__inject_css_id-' +
+        Object.keys(idCache).length;
     }
 
     if (isDOMReady()) {

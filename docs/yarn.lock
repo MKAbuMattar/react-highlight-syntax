@@ -3239,10 +3239,10 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-highlight-syntax@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-highlight-syntax/-/react-highlight-syntax-1.0.3.tgz#d5880af586db6a902ae571f06c486072ba54dfb1"
-  integrity sha512-C3VRYRrfMYS+jBxh1j31vKzzMs50GXzd9qKR2Bb2uaQZ5o+nb6gfmLccj4+2sWhLCY687hUHsSRyTuD+a+L7lg==
+react-highlight-syntax@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-highlight-syntax/-/react-highlight-syntax-1.1.0.tgz#366532de04362882f1c1715c692a5c9cb215ee83"
+  integrity sha512-kD0Jxkh4o368B4xwGCnvthuQUIR7QEJV3W8zTNAnVQsNLhDWZtJEm1HnsmDiE8eTCV9L3ptDmus6qQ3w6tiELQ==
   dependencies:
     highlight.js "11.7.0"
 
