@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 import Copy from './Copy';
 import InjectCSS from './InjectCSS';
@@ -8,17 +8,15 @@ import useHighlight from '../hooks/useHighlight';
 import getLanguageClass from '../utils/getLanguageClass';
 import { getStyleClass, getTheme } from '../utils/getStyleClass';
 
-const Highlight: FC<HighlightProps> = (props) => {
-  const {
-    tag: Tag = 'div',
-    language = 'PlainText',
-    theme = 'Default',
-    copy = false,
-    copyBtnTheme = 'Light',
-    children,
-    ...otherProps
-  } = props;
-
+const Highlight = ({
+  tag: Tag = 'div',
+  language = 'PlainText',
+  theme = 'Default',
+  copy = false,
+  copyBtnTheme = 'Light',
+  children,
+  ...otherProps
+}: HighlightProps) => {
   const { refHighlight } = useHighlight(children);
 
   return (

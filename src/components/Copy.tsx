@@ -1,13 +1,11 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 import InjectCSS from './InjectCSS';
 
 import CopyProps from '../types/Copy';
 import useCopy from '../hooks/useCopy';
 
-const Copy: FC<CopyProps> = (props) => {
-  const { code, copyBtnTheme = 'Light' } = props;
-
+const Copy = ({ code, copyBtnTheme = 'Light' }: CopyProps) => {
   const { handleCopyClick, copyIcon, copyClass, css } = useCopy(copyBtnTheme);
 
   return (
