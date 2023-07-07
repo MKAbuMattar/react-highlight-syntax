@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import InjectCSS from './InjectCSS';
 
@@ -9,12 +9,12 @@ const Copy = ({ code, copyBtnTheme = 'Light' }: CopyProps) => {
   const { handleCopyClick, copyIcon, copyClass, css } = useCopy(copyBtnTheme);
 
   return (
-    <>
+    <Fragment>
       <InjectCSS css={css} />
       <button onClick={() => handleCopyClick(code)} className={copyClass}>
         {copyIcon}
       </button>
-    </>
+    </Fragment>
   );
 };
 
