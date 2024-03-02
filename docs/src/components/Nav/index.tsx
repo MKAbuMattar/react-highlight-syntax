@@ -39,7 +39,6 @@ const Nav: FC<Props> = (props) => {
     >
       <SidebarHeader>
         <Link href="/">
-         
             <h1 className="nav__title">
               <div className="nav__banner">
                 <DeviconsReactOriginal size={'3rem'} />
