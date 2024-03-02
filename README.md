@@ -553,3 +553,4 @@ export default React.memo(SyntaxHighlighter);
 react-highlight-syntax is licensed under the [MIT License](./LICENSE).
 
 Created with ♥ by [@MKAbuMattar](https://github.com/MKAbuMattar).
+
