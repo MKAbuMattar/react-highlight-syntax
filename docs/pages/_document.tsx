@@ -8,7 +8,7 @@ export default class _Document extends Document {
           <Head>
             <link rel="manifest" href="/manifest.webmanifest" />
             <link rel="apple-touch-icon" href="/icon/logo192.png" />
-            <link rel="icon" href="favicon.ico" />
+            <link rel="icon" href="/icon/favicon.ico" />
             <meta name="theme-color" content="#000000" />
             {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link

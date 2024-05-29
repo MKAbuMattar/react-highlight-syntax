@@ -13,7 +13,7 @@ export default {
     },
     footer: {
         text: (
-            <div>
+            <div style={{width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "2rem"}}>
                 <span>
                     MIT {new Date().getFullYear()} ©{' '}
                     <a href="https://github.com/MKAbuMattar/react-highlight-syntax" target="_blank">
@@ -21,6 +21,10 @@ export default {
                     </a>
                     .
                 </span>
+                <div style={{display: "flex", alignItems: "center", gap: ".3rem"}}>
+                    <span>Designed by</span>
+                    <a href="https://www.contawo.com/" target="_blank" rel="norefferer">@contawo</a>
+                </div>
             </div>
         )
     },
