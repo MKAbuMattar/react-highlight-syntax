@@ -1,0 +1,93 @@
+import { Tabs } from 'nextra/components';
+
+# Installation
+
+Let us get you started with using [React Highlight Syntax](https://www.npmjs.com/package/react-highlight-syntax). Choose the type of installation that fits your need.
+
+<Tabs items={['npm', 'yarn', 'pnpm']}>
+  <Tabs.Tab>
+    ```bash copy
+    npm install --save react-highlight-syntax
+    ```
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```bash copy
+    yarn add react-highlight-syntax
+    ```
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```bash copy
+    pnpm add react-highlight-syntax
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Basic usage
+
+To quickly get started, here is a basic usage of the package.
+
+```tsx filename="App.tsx" copy showLineNumbers
+import React from 'react';
+import ReactHighlightSyntax from 'react-highlight-syntax';
+
+const code = `const foo = 'bar';`;
+
+const App = () => (
+  return (
+    <ReactHighlightSyntax
+        language={'JavaScript'}
+        theme={'Base16Darcula'}
+        copy={true}
+        copyBtnTheme={'Dark'}
+    >
+        {code}
+    </ReactHighlightSyntax>
+  );
+);
+
+export default App;
+```
+
+### Custom component
+
+You can make your own custom component. Here is an example:
+
+```tsx {10-11} filename="SyntaxHighlighter.tsx" copy showLineNumbers
+import React, { FC } from 'react';
+
+import ReactHighlightSyntax, {
+  Language,
+  Theme,
+  CopyBtnTheme,
+} from 'react-highlight-syntax';
+
+type Props = {
+  language: Language;
+  theme?: Theme;
+  copy?: boolean;
+  copyBtnTheme?: CopyBtnTheme;
+  children: string;
+};
+
+const SyntaxHighlighter: FC<Props> = (props) => {
+  const {
+    language,
+    theme = 'Base16Darcula',
+    copy = true,
+    copyBtnTheme = 'Dark',
+    children,
+  } = props;
+  return (
+    <ReactHighlightSyntax
+      language={language}
+      theme={theme}
+      copy={copy}
+      copyBtnTheme={copyBtnTheme}
+    >
+      {children}
+    </ReactHighlightSyntax>
+  );
+};
+
+export default React.memo(SyntaxHighlighter);
+```

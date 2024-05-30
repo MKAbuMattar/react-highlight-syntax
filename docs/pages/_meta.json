@@ -1,0 +1,16 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": false
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
+  }
+}
