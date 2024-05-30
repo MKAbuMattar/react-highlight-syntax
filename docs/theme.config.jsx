@@ -52,5 +52,5 @@ export default {
   editLink: {
     text: 'Edit this page on Github',
   },
-  docsRepositoryBase: 'https://github.com/MKAbuMattar/react-highlight-syntax',
+  docsRepositoryBase: 'https://github.com/MKAbuMattar/react-highlight-syntax/tree/main/docs/',
 };
