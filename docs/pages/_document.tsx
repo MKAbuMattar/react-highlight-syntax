@@ -10,7 +10,7 @@ export default class _Document extends Document {
             <link rel="apple-touch-icon" href="/icon/logo192.png" />
             <link rel="icon" href="/icon/favicon.ico" />
             <meta name="theme-color" content="#000000" />
-            {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link
               rel="preconnect"
               href="https://fonts.gstatic.com"
@@ -19,10 +19,10 @@ export default class _Document extends Document {
             <link
               href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
               rel="stylesheet"
-            /> */}
+            />
 
             {/* Global Site Tag (gtag.js) - Google Analytics */}
-            {/* <script
+            <script
               async
               src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
             />
@@ -37,7 +37,7 @@ export default class _Document extends Document {
             });
           `,
               }}
-            /> */}
+            />
           </Head>
           <body>
             <Main />

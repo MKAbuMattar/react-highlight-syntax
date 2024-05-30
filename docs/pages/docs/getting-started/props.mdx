@@ -1,28 +1,31 @@
-import { Link } from "nextra-theme-docs";
+import { Link } from 'nextra-theme-docs';
 
 # Props
 
 You can pass props into the component. Here is a table of all the props you can pass, along with their explanations.
 
 ## Table
-| Prop | Default | Optional | Type |
-| ---- | ----- | ---- | ---- |
-| tag | div | true | string |
-| language | PlainText | true | <Link href="/docs/supported/languages">Language</Link> |
-| theme | Default | true |  <Link href="/docs/supported/themes">Theme</Link> |
-| copy | false | true | boolean |
-| copyBtnTheme | Light | true | Light or Dark |
-| children | " " | false | string |
+
+| Prop         | Default   | Optional | Type                                                   |
+| ------------ | --------- | -------- | ------------------------------------------------------ |
+| tag          | div       | true     | string                                                 |
+| language     | PlainText | true     | <Link href="/docs/supported/languages">Language</Link> |
+| theme        | Default   | true     | <Link href="/docs/supported/themes">Theme</Link>       |
+| copy         | false     | true     | boolean                                                |
+| copyBtnTheme | Light     | true     | Light or Dark                                          |
+| children     | " "       | false    | string                                                 |
 
 ## Explanation
+
 - **tag**: The tag name of the code block.
 - **language**: the language to highlight code in. View all <Link href="/docs/supported/languages">available languages</Link>.
 - **theme**: the theme to use for highlighting. View all <Link href="/docs/supported/themes">available themes</Link>.
 - **copy**: whether to show the copy button.
 - **copyBtnTheme**: the theme to use for the copy button.
 - **children**: this is where you pass your code text. You must pass it inside the component like this:
-```tsx {2}
+
+```tsx {2} showLineNumbers
 <ReactHighlightSyntax>
-    {children}
+  {children}
 </ReactHighlightSyntax>
 ```
