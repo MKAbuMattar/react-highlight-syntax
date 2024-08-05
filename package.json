@@ -1,6 +1,6 @@
 {
   "name": "react-highlight-syntax",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React Highlight Syntax is a React component that highlights syntax in a code block.",
   "keywords": [
     "typescript",
@@ -42,7 +42,7 @@
     "publish:lib:canary": "npm publish --tag canary"
   },
   "peerDependencies": {
-    "highlight.js": ">=11.9.0",
+    "highlight.js": ">=11.10.0",
     "react": ">=16.8.0",
     "react-dom": "*"
   },
@@ -55,30 +55,30 @@
     "@rollup/plugin-terser": "0.4.4",
     "@rollup/plugin-typescript": "11.1.6",
     "@types/clean-css": "4.2.11",
-    "@types/node": "20.12.13",
+    "@types/node": "22.1.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@types/uglify-js": "3.17.5",
-    "@typescript-eslint/eslint-plugin": "7.11.0",
-    "@typescript-eslint/parser": "7.11.0",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
     "clean-css": "5.3.3",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-simple-import-sort": "12.1.0",
     "eslint-plugin-unused-imports": "4.0.0",
-    "highlight.js": "11.9.0",
-    "prettier": "3.2.5",
+    "highlight.js": "11.10.0",
+    "prettier": "3.3.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-is": "18.3.1",
     "recursive-directory": "1.2.3",
-    "rollup": "4.18.0",
+    "rollup": "4.20.0",
     "rollup-plugin-dts": "6.1.1",
-    "sass": "1.77.3",
-    "tslib": "2.6.2",
-    "tsx": "4.11.0",
-    "typescript": "5.4.5"
+    "sass": "1.77.8",
+    "tslib": "2.6.3",
+    "tsx": "4.16.5",
+    "typescript": "5.5.4"
   },
   "sideEffects": true,
   "exports": {

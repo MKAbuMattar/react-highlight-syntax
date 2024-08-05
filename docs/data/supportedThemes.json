@@ -1,248 +1,743 @@
 [
-  { "name": "A11yDark" },
-  { "name": "A11yLight" },
-  { "name": "Agate" },
-  { "name": "AnOldHope" },
-  { "name": "Androidstudio" },
-  { "name": "ArduinoLight" },
-  { "name": "Arta" },
-  { "name": "Ascetic" },
-  { "name": "AtomOneDarkReasonable" },
-  { "name": "AtomOneDark" },
-  { "name": "AtomOneLight" },
-  { "name": "Base163024" },
-  { "name": "Base16Apathy" },
-  { "name": "Base16Apprentice" },
-  { "name": "Base16Ashes" },
-  { "name": "Base16AtelierCaveLight" },
-  { "name": "Base16AtelierCave" },
-  { "name": "Base16AtelierDuneLight" },
-  { "name": "Base16AtelierDune" },
-  { "name": "Base16AtelierEstuaryLight" },
-  { "name": "Base16AtelierEstuary" },
-  { "name": "Base16AtelierForestLight" },
-  { "name": "Base16AtelierForest" },
-  { "name": "Base16AtelierHeathLight" },
-  { "name": "Base16AtelierHeath" },
-  { "name": "Base16AtelierLakesideLight" },
-  { "name": "Base16AtelierLakeside" },
-  { "name": "Base16AtelierPlateauLight" },
-  { "name": "Base16AtelierPlateau" },
-  { "name": "Base16AtelierSavannaLight" },
-  { "name": "Base16AtelierSavanna" },
-  { "name": "Base16AtelierSeasideLight" },
-  { "name": "Base16AtelierSeaside" },
-  { "name": "Base16AtelierSulphurpoolLight" },
-  { "name": "Base16AtelierSulphurpool" },
-  { "name": "Base16Atlas" },
-  { "name": "Base16Bespin" },
-  { "name": "Base16BlackMetalBathory" },
-  { "name": "Base16BlackMetalBurzum" },
-  { "name": "Base16BlackMetalDarkFuneral" },
-  { "name": "Base16BlackMetalGorgoroth" },
-  { "name": "Base16BlackMetalImmortal" },
-  { "name": "Base16BlackMetalKhold" },
-  { "name": "Base16BlackMetalMarduk" },
-  { "name": "Base16BlackMetalMayhem" },
-  { "name": "Base16BlackMetalNile" },
-  { "name": "Base16BlackMetalVenom" },
-  { "name": "Base16BlackMetal" },
-  { "name": "Base16Brewer" },
-  { "name": "Base16Bright" },
-  { "name": "Base16Brogrammer" },
-  { "name": "Base16BrushTreesDark" },
-  { "name": "Base16BrushTrees" },
-  { "name": "Base16Chalk" },
-  { "name": "Base16Circus" },
-  { "name": "Base16ClassicDark" },
-  { "name": "Base16ClassicLight" },
-  { "name": "Base16Codeschool" },
-  { "name": "Base16Colors" },
-  { "name": "Base16Cupcake" },
-  { "name": "Base16Cupertino" },
-  { "name": "Base16Danqing" },
-  { "name": "Base16Darcula" },
-  { "name": "Base16DarkViolet" },
-  { "name": "Base16Darkmoss" },
-  { "name": "Base16Darktooth" },
-  { "name": "Base16Decaf" },
-  { "name": "Base16DefaultDark" },
-  { "name": "Base16DefaultLight" },
-  { "name": "Base16Dirtysea" },
-  { "name": "Base16Dracula" },
-  { "name": "Base16EdgeDark" },
-  { "name": "Base16EdgeLight" },
-  { "name": "Base16Eighties" },
-  { "name": "Base16Embers" },
-  { "name": "Base16EquilibriumDark" },
-  { "name": "Base16EquilibriumGrayDark" },
-  { "name": "Base16EquilibriumGrayLight" },
-  { "name": "Base16EquilibriumLight" },
-  { "name": "Base16Espresso" },
-  { "name": "Base16EvaDim" },
-  { "name": "Base16Eva" },
-  { "name": "Base16Flat" },
-  { "name": "Base16Framer" },
-  { "name": "Base16FruitSoda" },
-  { "name": "Base16Gigavolt" },
-  { "name": "Base16Github" },
-  { "name": "Base16GoogleDark" },
-  { "name": "Base16GoogleLight" },
-  { "name": "Base16GrayscaleDark" },
-  { "name": "Base16GrayscaleLight" },
-  { "name": "Base16GreenScreen" },
-  { "name": "Base16GruvboxDarkHard" },
-  { "name": "Base16GruvboxDarkMedium" },
-  { "name": "Base16GruvboxDarkPale" },
-  { "name": "Base16GruvboxDarkSoft" },
-  { "name": "Base16GruvboxLightHard" },
-  { "name": "Base16GruvboxLightMedium" },
-  { "name": "Base16GruvboxLightSoft" },
-  { "name": "Base16Hardcore" },
-  { "name": "Base16Harmonic16Dark" },
-  { "name": "Base16Harmonic16Light" },
-  { "name": "Base16HeetchDark" },
-  { "name": "Base16HeetchLight" },
-  { "name": "Base16Helios" },
-  { "name": "Base16Hopscotch" },
-  { "name": "Base16HorizonDark" },
-  { "name": "Base16HorizonLight" },
-  { "name": "Base16HumanoidDark" },
-  { "name": "Base16HumanoidLight" },
-  { "name": "Base16IaDark" },
-  { "name": "Base16IaLight" },
-  { "name": "Base16IcyDark" },
-  { "name": "Base16IrBlack" },
-  { "name": "Base16Isotope" },
-  { "name": "Base16Kimber" },
-  { "name": "Base16LondonTube" },
-  { "name": "Base16Macintosh" },
-  { "name": "Base16Marrakesh" },
-  { "name": "Base16Materia" },
-  { "name": "Base16MaterialDarker" },
-  { "name": "Base16MaterialLighter" },
-  { "name": "Base16MaterialPalenight" },
-  { "name": "Base16MaterialVivid" },
-  { "name": "Base16Material" },
-  { "name": "Base16MellowPurple" },
-  { "name": "Base16MexicoLight" },
-  { "name": "Base16Mocha" },
-  { "name": "Base16Monokai" },
-  { "name": "Base16Nebula" },
-  { "name": "Base16Nord" },
-  { "name": "Base16Nova" },
-  { "name": "Base16Ocean" },
-  { "name": "Base16Oceanicnext" },
-  { "name": "Base16OneLight" },
-  { "name": "Base16Onedark" },
-  { "name": "Base16OutrunDark" },
-  { "name": "Base16PapercolorDark" },
-  { "name": "Base16PapercolorLight" },
-  { "name": "Base16Paraiso" },
-  { "name": "Base16Pasque" },
-  { "name": "Base16Phd" },
-  { "name": "Base16Pico" },
-  { "name": "Base16Pop" },
-  { "name": "Base16Porple" },
-  { "name": "Base16Qualia" },
-  { "name": "Base16Railscasts" },
-  { "name": "Base16Rebecca" },
-  { "name": "Base16RosPineDawn" },
-  { "name": "Base16RosPineMoon" },
-  { "name": "Base16RosPine" },
-  { "name": "Base16Sagelight" },
-  { "name": "Base16Sandcastle" },
-  { "name": "Base16SetiUi" },
-  { "name": "Base16Shapeshifter" },
-  { "name": "Base16SilkDark" },
-  { "name": "Base16SilkLight" },
-  { "name": "Base16Snazzy" },
-  { "name": "Base16SolarFlareLight" },
-  { "name": "Base16SolarFlare" },
-  { "name": "Base16SolarizedDark" },
-  { "name": "Base16SolarizedLight" },
-  { "name": "Base16Spacemacs" },
-  { "name": "Base16Summercamp" },
-  { "name": "Base16SummerfruitDark" },
-  { "name": "Base16SummerfruitLight" },
-  { "name": "Base16SynthMidnightTerminalDark" },
-  { "name": "Base16SynthMidnightTerminalLight" },
-  { "name": "Base16Tango" },
-  { "name": "Base16Tender" },
-  { "name": "Base16TomorrowNight" },
-  { "name": "Base16Tomorrow" },
-  { "name": "Base16Twilight" },
-  { "name": "Base16UnikittyDark" },
-  { "name": "Base16UnikittyLight" },
-  { "name": "Base16Vulcan" },
-  { "name": "Base16Windows10Light" },
-  { "name": "Base16Windows10" },
-  { "name": "Base16Windows95Light" },
-  { "name": "Base16Windows95" },
-  { "name": "Base16WindowsHighContrastLight" },
-  { "name": "Base16WindowsHighContrast" },
-  { "name": "Base16WindowsNtLight" },
-  { "name": "Base16WindowsNt" },
-  { "name": "Base16Woodland" },
-  { "name": "Base16XcodeDusk" },
-  { "name": "Base16Zenburn" },
-  { "name": "CodepenEmbed" },
-  { "name": "ColorBrewer" },
-  { "name": "Dark" },
-  { "name": "Default" },
-  { "name": "Devibeans" },
-  { "name": "Docco" },
-  { "name": "Far" },
-  { "name": "Felipec" },
-  { "name": "Foundation" },
-  { "name": "GithubDarkDimmed" },
-  { "name": "GithubDark" },
-  { "name": "Github" },
-  { "name": "Gml" },
-  { "name": "Googlecode" },
-  { "name": "GradientDark" },
-  { "name": "GradientLight" },
-  { "name": "Grayscale" },
-  { "name": "Hybrid" },
-  { "name": "Idea" },
-  { "name": "IntellijLight" },
-  { "name": "IrBlack" },
-  { "name": "IsblEditorDark" },
-  { "name": "IsblEditorLight" },
-  { "name": "KimbieDark" },
-  { "name": "KimbieLight" },
-  { "name": "Lightfair" },
-  { "name": "Lioshi" },
-  { "name": "Magula" },
-  { "name": "MonoBlue" },
-  { "name": "MonokaiSublime" },
-  { "name": "Monokai" },
-  { "name": "NightOwl" },
-  { "name": "NnfxDark" },
-  { "name": "NnfxLight" },
-  { "name": "Nord" },
-  { "name": "Obsidian" },
-  { "name": "PandaSyntaxDark" },
-  { "name": "PandaSyntaxLight" },
-  { "name": "ParaisoDark" },
-  { "name": "ParaisoLight" },
-  { "name": "Purebasic" },
-  { "name": "QtcreatorDark" },
-  { "name": "QtcreatorLight" },
-  { "name": "Rainbow" },
-  { "name": "Routeros" },
-  { "name": "SchoolBook" },
-  { "name": "ShadesOfPurple" },
-  { "name": "Srcery" },
-  { "name": "StackoverflowDark" },
-  { "name": "StackoverflowLight" },
-  { "name": "Sunburst" },
-  { "name": "TokyoNightDark" },
-  { "name": "TokyoNightLight" },
-  { "name": "TomorrowNightBlue" },
-  { "name": "TomorrowNightBright" },
-  { "name": "Vs" },
-  { "name": "Vs2015" },
-  { "name": "Xcode" },
-  { "name": "Xt256" }
+  {
+    "name": "1cLight"
+  },
+  {
+    "name": "A11yDark"
+  },
+  {
+    "name": "A11yLight"
+  },
+  {
+    "name": "Agate"
+  },
+  {
+    "name": "AnOldHope"
+  },
+  {
+    "name": "Androidstudio"
+  },
+  {
+    "name": "ArduinoLight"
+  },
+  {
+    "name": "Arta"
+  },
+  {
+    "name": "Ascetic"
+  },
+  {
+    "name": "AtomOneDarkReasonable"
+  },
+  {
+    "name": "AtomOneDark"
+  },
+  {
+    "name": "AtomOneLight"
+  },
+  {
+    "name": "Base163024"
+  },
+  {
+    "name": "Base16Apathy"
+  },
+  {
+    "name": "Base16Apprentice"
+  },
+  {
+    "name": "Base16Ashes"
+  },
+  {
+    "name": "Base16AtelierCaveLight"
+  },
+  {
+    "name": "Base16AtelierCave"
+  },
+  {
+    "name": "Base16AtelierDuneLight"
+  },
+  {
+    "name": "Base16AtelierDune"
+  },
+  {
+    "name": "Base16AtelierEstuaryLight"
+  },
+  {
+    "name": "Base16AtelierEstuary"
+  },
+  {
+    "name": "Base16AtelierForestLight"
+  },
+  {
+    "name": "Base16AtelierForest"
+  },
+  {
+    "name": "Base16AtelierHeathLight"
+  },
+  {
+    "name": "Base16AtelierHeath"
+  },
+  {
+    "name": "Base16AtelierLakesideLight"
+  },
+  {
+    "name": "Base16AtelierLakeside"
+  },
+  {
+    "name": "Base16AtelierPlateauLight"
+  },
+  {
+    "name": "Base16AtelierPlateau"
+  },
+  {
+    "name": "Base16AtelierSavannaLight"
+  },
+  {
+    "name": "Base16AtelierSavanna"
+  },
+  {
+    "name": "Base16AtelierSeasideLight"
+  },
+  {
+    "name": "Base16AtelierSeaside"
+  },
+  {
+    "name": "Base16AtelierSulphurpoolLight"
+  },
+  {
+    "name": "Base16AtelierSulphurpool"
+  },
+  {
+    "name": "Base16Atlas"
+  },
+  {
+    "name": "Base16Bespin"
+  },
+  {
+    "name": "Base16BlackMetalBathory"
+  },
+  {
+    "name": "Base16BlackMetalBurzum"
+  },
+  {
+    "name": "Base16BlackMetalDarkFuneral"
+  },
+  {
+    "name": "Base16BlackMetalGorgoroth"
+  },
+  {
+    "name": "Base16BlackMetalImmortal"
+  },
+  {
+    "name": "Base16BlackMetalKhold"
+  },
+  {
+    "name": "Base16BlackMetalMarduk"
+  },
+  {
+    "name": "Base16BlackMetalMayhem"
+  },
+  {
+    "name": "Base16BlackMetalNile"
+  },
+  {
+    "name": "Base16BlackMetalVenom"
+  },
+  {
+    "name": "Base16BlackMetal"
+  },
+  {
+    "name": "Base16Brewer"
+  },
+  {
+    "name": "Base16Bright"
+  },
+  {
+    "name": "Base16Brogrammer"
+  },
+  {
+    "name": "Base16BrushTreesDark"
+  },
+  {
+    "name": "Base16BrushTrees"
+  },
+  {
+    "name": "Base16Chalk"
+  },
+  {
+    "name": "Base16Circus"
+  },
+  {
+    "name": "Base16ClassicDark"
+  },
+  {
+    "name": "Base16ClassicLight"
+  },
+  {
+    "name": "Base16Codeschool"
+  },
+  {
+    "name": "Base16Colors"
+  },
+  {
+    "name": "Base16Cupcake"
+  },
+  {
+    "name": "Base16Cupertino"
+  },
+  {
+    "name": "Base16Danqing"
+  },
+  {
+    "name": "Base16Darcula"
+  },
+  {
+    "name": "Base16DarkViolet"
+  },
+  {
+    "name": "Base16Darkmoss"
+  },
+  {
+    "name": "Base16Darktooth"
+  },
+  {
+    "name": "Base16Decaf"
+  },
+  {
+    "name": "Base16DefaultDark"
+  },
+  {
+    "name": "Base16DefaultLight"
+  },
+  {
+    "name": "Base16Dirtysea"
+  },
+  {
+    "name": "Base16Dracula"
+  },
+  {
+    "name": "Base16EdgeDark"
+  },
+  {
+    "name": "Base16EdgeLight"
+  },
+  {
+    "name": "Base16Eighties"
+  },
+  {
+    "name": "Base16Embers"
+  },
+  {
+    "name": "Base16EquilibriumDark"
+  },
+  {
+    "name": "Base16EquilibriumGrayDark"
+  },
+  {
+    "name": "Base16EquilibriumGrayLight"
+  },
+  {
+    "name": "Base16EquilibriumLight"
+  },
+  {
+    "name": "Base16Espresso"
+  },
+  {
+    "name": "Base16EvaDim"
+  },
+  {
+    "name": "Base16Eva"
+  },
+  {
+    "name": "Base16Flat"
+  },
+  {
+    "name": "Base16Framer"
+  },
+  {
+    "name": "Base16FruitSoda"
+  },
+  {
+    "name": "Base16Gigavolt"
+  },
+  {
+    "name": "Base16Github"
+  },
+  {
+    "name": "Base16GoogleDark"
+  },
+  {
+    "name": "Base16GoogleLight"
+  },
+  {
+    "name": "Base16GrayscaleDark"
+  },
+  {
+    "name": "Base16GrayscaleLight"
+  },
+  {
+    "name": "Base16GreenScreen"
+  },
+  {
+    "name": "Base16GruvboxDarkHard"
+  },
+  {
+    "name": "Base16GruvboxDarkMedium"
+  },
+  {
+    "name": "Base16GruvboxDarkPale"
+  },
+  {
+    "name": "Base16GruvboxDarkSoft"
+  },
+  {
+    "name": "Base16GruvboxLightHard"
+  },
+  {
+    "name": "Base16GruvboxLightMedium"
+  },
+  {
+    "name": "Base16GruvboxLightSoft"
+  },
+  {
+    "name": "Base16Hardcore"
+  },
+  {
+    "name": "Base16Harmonic16Dark"
+  },
+  {
+    "name": "Base16Harmonic16Light"
+  },
+  {
+    "name": "Base16HeetchDark"
+  },
+  {
+    "name": "Base16HeetchLight"
+  },
+  {
+    "name": "Base16Helios"
+  },
+  {
+    "name": "Base16Hopscotch"
+  },
+  {
+    "name": "Base16HorizonDark"
+  },
+  {
+    "name": "Base16HorizonLight"
+  },
+  {
+    "name": "Base16HumanoidDark"
+  },
+  {
+    "name": "Base16HumanoidLight"
+  },
+  {
+    "name": "Base16IaDark"
+  },
+  {
+    "name": "Base16IaLight"
+  },
+  {
+    "name": "Base16IcyDark"
+  },
+  {
+    "name": "Base16IrBlack"
+  },
+  {
+    "name": "Base16Isotope"
+  },
+  {
+    "name": "Base16Kimber"
+  },
+  {
+    "name": "Base16LondonTube"
+  },
+  {
+    "name": "Base16Macintosh"
+  },
+  {
+    "name": "Base16Marrakesh"
+  },
+  {
+    "name": "Base16Materia"
+  },
+  {
+    "name": "Base16MaterialDarker"
+  },
+  {
+    "name": "Base16MaterialLighter"
+  },
+  {
+    "name": "Base16MaterialPalenight"
+  },
+  {
+    "name": "Base16MaterialVivid"
+  },
+  {
+    "name": "Base16Material"
+  },
+  {
+    "name": "Base16MellowPurple"
+  },
+  {
+    "name": "Base16MexicoLight"
+  },
+  {
+    "name": "Base16Mocha"
+  },
+  {
+    "name": "Base16Monokai"
+  },
+  {
+    "name": "Base16Nebula"
+  },
+  {
+    "name": "Base16Nord"
+  },
+  {
+    "name": "Base16Nova"
+  },
+  {
+    "name": "Base16Ocean"
+  },
+  {
+    "name": "Base16Oceanicnext"
+  },
+  {
+    "name": "Base16OneLight"
+  },
+  {
+    "name": "Base16Onedark"
+  },
+  {
+    "name": "Base16OutrunDark"
+  },
+  {
+    "name": "Base16PapercolorDark"
+  },
+  {
+    "name": "Base16PapercolorLight"
+  },
+  {
+    "name": "Base16Paraiso"
+  },
+  {
+    "name": "Base16Pasque"
+  },
+  {
+    "name": "Base16Phd"
+  },
+  {
+    "name": "Base16Pico"
+  },
+  {
+    "name": "Base16Pop"
+  },
+  {
+    "name": "Base16Porple"
+  },
+  {
+    "name": "Base16Qualia"
+  },
+  {
+    "name": "Base16Railscasts"
+  },
+  {
+    "name": "Base16Rebecca"
+  },
+  {
+    "name": "Base16RosPineDawn"
+  },
+  {
+    "name": "Base16RosPineMoon"
+  },
+  {
+    "name": "Base16RosPine"
+  },
+  {
+    "name": "Base16Sagelight"
+  },
+  {
+    "name": "Base16Sandcastle"
+  },
+  {
+    "name": "Base16SetiUi"
+  },
+  {
+    "name": "Base16Shapeshifter"
+  },
+  {
+    "name": "Base16SilkDark"
+  },
+  {
+    "name": "Base16SilkLight"
+  },
+  {
+    "name": "Base16Snazzy"
+  },
+  {
+    "name": "Base16SolarFlareLight"
+  },
+  {
+    "name": "Base16SolarFlare"
+  },
+  {
+    "name": "Base16SolarizedDark"
+  },
+  {
+    "name": "Base16SolarizedLight"
+  },
+  {
+    "name": "Base16Spacemacs"
+  },
+  {
+    "name": "Base16Summercamp"
+  },
+  {
+    "name": "Base16SummerfruitDark"
+  },
+  {
+    "name": "Base16SummerfruitLight"
+  },
+  {
+    "name": "Base16SynthMidnightTerminalDark"
+  },
+  {
+    "name": "Base16SynthMidnightTerminalLight"
+  },
+  {
+    "name": "Base16Tango"
+  },
+  {
+    "name": "Base16Tender"
+  },
+  {
+    "name": "Base16TomorrowNight"
+  },
+  {
+    "name": "Base16Tomorrow"
+  },
+  {
+    "name": "Base16Twilight"
+  },
+  {
+    "name": "Base16UnikittyDark"
+  },
+  {
+    "name": "Base16UnikittyLight"
+  },
+  {
+    "name": "Base16Vulcan"
+  },
+  {
+    "name": "Base16Windows10Light"
+  },
+  {
+    "name": "Base16Windows10"
+  },
+  {
+    "name": "Base16Windows95Light"
+  },
+  {
+    "name": "Base16Windows95"
+  },
+  {
+    "name": "Base16WindowsHighContrastLight"
+  },
+  {
+    "name": "Base16WindowsHighContrast"
+  },
+  {
+    "name": "Base16WindowsNtLight"
+  },
+  {
+    "name": "Base16WindowsNt"
+  },
+  {
+    "name": "Base16Woodland"
+  },
+  {
+    "name": "Base16XcodeDusk"
+  },
+  {
+    "name": "Base16Zenburn"
+  },
+  {
+    "name": "CodepenEmbed"
+  },
+  {
+    "name": "ColorBrewer"
+  },
+  {
+    "name": "Dark"
+  },
+  {
+    "name": "Default"
+  },
+  {
+    "name": "Devibeans"
+  },
+  {
+    "name": "Docco"
+  },
+  {
+    "name": "Far"
+  },
+  {
+    "name": "Felipec"
+  },
+  {
+    "name": "Foundation"
+  },
+  {
+    "name": "GithubDarkDimmed"
+  },
+  {
+    "name": "GithubDark"
+  },
+  {
+    "name": "Github"
+  },
+  {
+    "name": "Gml"
+  },
+  {
+    "name": "Googlecode"
+  },
+  {
+    "name": "GradientDark"
+  },
+  {
+    "name": "GradientLight"
+  },
+  {
+    "name": "Grayscale"
+  },
+  {
+    "name": "Hybrid"
+  },
+  {
+    "name": "Idea"
+  },
+  {
+    "name": "IntellijLight"
+  },
+  {
+    "name": "IrBlack"
+  },
+  {
+    "name": "IsblEditorDark"
+  },
+  {
+    "name": "IsblEditorLight"
+  },
+  {
+    "name": "KimbieDark"
+  },
+  {
+    "name": "KimbieLight"
+  },
+  {
+    "name": "Lightfair"
+  },
+  {
+    "name": "Lioshi"
+  },
+  {
+    "name": "Magula"
+  },
+  {
+    "name": "MonoBlue"
+  },
+  {
+    "name": "MonokaiSublime"
+  },
+  {
+    "name": "Monokai"
+  },
+  {
+    "name": "NightOwl"
+  },
+  {
+    "name": "NnfxDark"
+  },
+  {
+    "name": "NnfxLight"
+  },
+  {
+    "name": "Nord"
+  },
+  {
+    "name": "Obsidian"
+  },
+  {
+    "name": "PandaSyntaxDark"
+  },
+  {
+    "name": "PandaSyntaxLight"
+  },
+  {
+    "name": "ParaisoDark"
+  },
+  {
+    "name": "ParaisoLight"
+  },
+  {
+    "name": "Purebasic"
+  },
+  {
+    "name": "QtcreatorDark"
+  },
+  {
+    "name": "QtcreatorLight"
+  },
+  {
+    "name": "Rainbow"
+  },
+  {
+    "name": "Routeros"
+  },
+  {
+    "name": "SchoolBook"
+  },
+  {
+    "name": "ShadesOfPurple"
+  },
+  {
+    "name": "Srcery"
+  },
+  {
+    "name": "StackoverflowDark"
+  },
+  {
+    "name": "StackoverflowLight"
+  },
+  {
+    "name": "Sunburst"
+  },
+  {
+    "name": "TokyoNightDark"
+  },
+  {
+    "name": "TokyoNightLight"
+  },
+  {
+    "name": "TomorrowNightBlue"
+  },
+  {
+    "name": "TomorrowNightBright"
+  },
+  {
+    "name": "Vs"
+  },
+  {
+    "name": "Vs2015"
+  },
+  {
+    "name": "Xcode"
+  },
+  {
+    "name": "Xt256"
+  }
 ]
