@@ -200,6 +200,7 @@ type Language =
   | 'Dsconfig';
 
 type Theme =
+  | '1cLight'
   | 'A11yDark'
   | 'A11yLight'
   | 'Agate'
