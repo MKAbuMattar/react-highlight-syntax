@@ -1,12 +1,10 @@
 import React from 'react';
-
-import Copy from './Copy';
-import InjectCSS from './InjectCSS';
-
-import HighlightProps from '../types/Highlight';
 import useHighlight from '../hooks/useHighlight';
+import HighlightProps from '../types/Highlight';
 import getLanguageClass from '../utils/getLanguageClass';
 import { getStyleClass, getTheme } from '../utils/getStyleClass';
+import Copy from './Copy';
+import InjectCSS from './InjectCSS';
 
 const Highlight = ({
   tag: Tag = 'div',

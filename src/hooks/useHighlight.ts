@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react';
 import highlight from 'highlight.js';
+import { useEffect, useRef } from 'react';
 
 const useHighlight = (children: string) => {
   const refHighlight = useRef(null);

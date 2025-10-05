@@ -1,4 +1,5 @@
 import { Language } from '../types/Highlight';
+
 const getClass = (language: Language) => {
   switch (language) {
     case 'Properties':

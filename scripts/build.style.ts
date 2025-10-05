@@ -1,8 +1,8 @@
-import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
-import sass from 'sass';
 import CleanCSS from 'clean-css';
 import fs from 'fs';
 import path from 'path';
+import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
+import sass from 'sass';
 
 const read = (file: string) => fs.readFileSync(file).toString();
 

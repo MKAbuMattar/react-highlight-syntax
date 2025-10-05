@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react';
-
-import InjectCSS from './InjectCSS';
+import useCopy from '../hooks/useCopy';
 
 import CopyProps from '../types/Copy';
-import useCopy from '../hooks/useCopy';
+import InjectCSS from './InjectCSS';
 
 const Copy = ({ code, copyBtnTheme = 'Light' }: CopyProps) => {
   const { handleCopyClick, copyIcon, copyClass, css } = useCopy(copyBtnTheme);

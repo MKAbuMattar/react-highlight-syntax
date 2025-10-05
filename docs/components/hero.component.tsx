@@ -1,6 +1,6 @@
 import { Link } from 'nextra-theme-docs';
-import { IoDocumentTextOutline } from 'react-icons/io5';
 import { ImNpm } from 'react-icons/im';
+import { IoDocumentTextOutline } from 'react-icons/io5';
 
 export default function Hero() {
   return (

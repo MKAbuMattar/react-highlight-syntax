@@ -1,7 +1,7 @@
-import { Fragment } from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { DefaultSeo } from 'next-seo';
+import { Fragment } from 'react';
 
 import SEO from '@/config/next-seo.config';
 

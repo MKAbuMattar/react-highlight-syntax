@@ -299,6 +299,7 @@ export default React.memo(SyntaxHighlighter);
 
 <details>
 
+- 1cLight
 - A11yDark
 - A11yLight
 - Agate
@@ -488,6 +489,10 @@ export default React.memo(SyntaxHighlighter);
 - Base16Zenburn
 - CodepenEmbed
 - ColorBrewer
+- CybertopiaCherry
+- CybertopiaDimmer
+- CybertopiaIcecap
+- CybertopiaSaturated
 - Dark
 - Default
 - Devibeans
@@ -530,6 +535,9 @@ export default React.memo(SyntaxHighlighter);
 - QtcreatorDark
 - QtcreatorLight
 - Rainbow
+- RosePineDawn
+- RosePineMoon
+- RosePine
 - Routeros
 - SchoolBook
 - ShadesOfPurple
@@ -553,4 +561,3 @@ export default React.memo(SyntaxHighlighter);
 react-highlight-syntax is licensed under the [MIT License](./LICENSE).
 
 Created with ♥ by [@MKAbuMattar](https://github.com/MKAbuMattar).
-

@@ -1,5 +1,5 @@
-import typescript from '@rollup/plugin-typescript';
 import terser from '@rollup/plugin-terser';
+import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
 
 export default [
@@ -11,7 +11,7 @@ export default [
       typescript({
         tsconfig: 'tsconfig.json',
         declaration: true,
-        declarationDir: 'types',
+        declarationDir: 'lib/types',
         rootDir: 'src',
         sourceMap: false,
       }),

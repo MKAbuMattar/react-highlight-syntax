@@ -1,6 +1,6 @@
-import { Fragment, useState, ChangeEvent } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import { Language, Theme, CopyBtnTheme } from 'react-highlight-syntax';
+import { ChangeEvent, Fragment, useState } from 'react';
+import { CopyBtnTheme, Language, Theme } from 'react-highlight-syntax';
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 
 import SyntaxHighlighter from '@/components/ui/syntax-highlighter.ui';
 
