@@ -19,7 +19,7 @@ const index: FC<IconsProps> = (props) => {
       strokeLinejoin="round"
       {...otherProps}
     >
-      <polyline points="20 6 9 17 4 12"></polyline>
+      <polyline points="20 6 9 17 4 12" />
     </svg>
   );
 };

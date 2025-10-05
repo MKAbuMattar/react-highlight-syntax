@@ -83,7 +83,9 @@ export default function Demo() {
           />
         </section>
         <button
-          className={`inline-flex sm:hidden items-center gap-1 px-3 py-2 rounded text-white bg-red-600 cursor-pointer`}
+          className={
+            'inline-flex sm:hidden items-center gap-1 px-3 py-2 rounded text-white bg-red-600 cursor-pointer'
+          }
           onClick={() => setShowBar(false)}
         >
           <MdSlideshow className="text-base sm:text-lg" />
@@ -94,7 +96,7 @@ export default function Demo() {
         className={`w-[100%] sm:w-[75%] h-full overflow-y-scroll ${!showBar ? 'flex' : 'hidden'} sm:flex flex-col pt-4 sm:pt-0`}
       >
         <button
-          className={`inline-flex sm:hidden items-center gap-1 cursor-pointer`}
+          className={'inline-flex sm:hidden items-center gap-1 cursor-pointer'}
           onClick={() => setShowBar(true)}
         >
           <IoSettingsOutline className="text-base sm:text-lg" />
@@ -282,7 +284,7 @@ export default App;`}
   );
 }
 
-const DisplayTabs = ({
+const _DisplayTabs = ({
   TabContentA,
   TabContentB,
 }: {
@@ -303,7 +305,7 @@ const DisplayTabs = ({
               onClick={() => setSelectedTab(newTab)}
               className={`cursor-pointer px-1 pb-1 border-b-2 ${newTab === selectedTab ? 'border-red-600 text-red-600' : 'border-transparent'}`}
             >
-              <span className={`text-sm sm:text-base font-semibold`}>
+              <span className={'text-sm sm:text-base font-semibold'}>
                 {tab}
               </span>
             </div>

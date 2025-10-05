@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 
 import ReactHighlightSyntax, {
+  CopyBtnTheme,
   Language,
   Theme,
-  CopyBtnTheme,
 } from 'react-highlight-syntax';
 
 type Props = {
